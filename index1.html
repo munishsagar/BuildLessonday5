@@ -15,6 +15,13 @@
         height: 60px;
         border: 1px solid black;
         display: inline-block;
+        position: relative;
+      }
+
+      div span:first-child {
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 23px;
       }
 
       div:nth-child(even) {
@@ -22,7 +29,12 @@
       }
       div span:nth-child(2) {
         color: green;
+        position: absolute;
+        /* margin-bottom: -30px; */
+        margin-top: -37px;
+        margin-left: 24px;
       }
+
       div span:nth-child(4) {
         color: green;
       }
@@ -31,6 +43,16 @@
       }
       div.container div:nth-child(6) :not(:last-of-type) {
         color: yellow;
+      }
+      div.container div:nth-child(1) span:last-child {
+        color: rgb(15, 221, 22);
+        position: absolute;
+        margin-left: -43px;
+      }
+      div.container div:nth-child(10) span:last-child {
+        color: rgb(7, 15, 15);
+        position: absolute;
+        margin-left: 74px;
       }
     </style>
   </head>
