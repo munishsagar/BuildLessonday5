@@ -1,0 +1,146 @@
+.container {
+  height: 590px;
+  width: 592px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  font-size: 0;
+}
+.row span {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.left_numbers div {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  padding: 7px;
+  font-size: 20pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.left_numbers {
+  margin-top: -99%;
+  height: 590px;
+  position: absolute;
+  margin-left: -47px;
+}
+
+.upper_numbers div {
+  display: inline-block;
+  justify-content: center;
+
+  font-size: 20pt;
+  font-family: sans-serif;
+  padding: 25px;
+}
+.upper_numbers {
+  height: 50px;
+  width: 592px;
+  display: block;
+  margin: auto;
+}
+
+#row_one span:nth-child(even) {
+  background-color: black;
+}
+#row_one span:nth-child(odd) {
+  background-color: rgb(155, 109, 71);
+}
+
+#row_two span:nth-child(odd) {
+  background-color: black;
+}
+#row_two span:nth-child(even) {
+  background-color: rgb(155, 109, 71);
+}
+#row_three span:nth-child(odd) {
+  background-color: rgb(155, 109, 71);
+}
+#row_three span:nth-child(even) {
+  background-color: black;
+}
+
+#row_fourth span:nth-child(odd) {
+  background-color: black;
+}
+#row_fourth span:nth-child(even) {
+  background-color: rgb(155, 109, 71);
+}
+
+#row_fifth span:nth-child(odd) {
+  background-color: rgb(155, 109, 71);
+}
+
+#row_fifth span:nth-child(even) {
+  background-color: black;
+}
+#row_six span:nth-child(odd) {
+  background-color: black;
+}
+#row_six span:nth-child(even) {
+  background-color: rgb(155, 109, 71);
+}
+#row_seven span:nth-child(odd) {
+  background-color: rgb(155, 109, 71);
+}
+#row_seven span:nth-child(even) {
+  background-color: black;
+}
+#row_eight span:nth-child(odd) {
+  background-color: black;
+}
+#row_eight span:nth-child(even) {
+  background-color: rgb(155, 109, 71);
+}
+.right_numbers {
+  height: 80px;
+  width: 300px;
+  float: right;
+
+  margin-right: -312px;
+  margin-top: -99%;
+}
+.right_numbers div {
+  height: 70px;
+  width: 60px;
+
+  color: black;
+  margin: 7px;
+  font-size: 20pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lower_numbers {
+  margin: auto;
+  margin-top: -21px;
+  height: 50px;
+  width: 592px;
+}
+.lower_numbers div {
+  display: inline-block;
+  font-size: 20pt;
+  font-family: sans-serif;
+  padding: 23px;
+  margin-top: -10px;
+  margin: 2px;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20pt;
+}
+
+div span:hover {
+  background-color: red !important;
+}
